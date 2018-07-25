@@ -1,0 +1,51 @@
+.background {
+    background-color: grey;
+    height: 200vh;
+}
+
+.post {
+    width: 10vw;
+    height: 20vw;
+    background-color: black;
+    margin: auto;
+}
+
+.stoplight {
+    background-color: black;
+    margin: auto;
+    display: inline-block;
+    margin-left: 39vw;
+    padding: 5vh 5vw;
+}
+
+.light {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin: 5vh auto;
+}
+
+.red {
+    background-color: red;
+}
+.red:hover {
+    background-color: red;
+    box-shadow: 0px 0px 30px red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.yellow:hover {
+    background-color: yellow;
+    box-shadow: 0px 0px 30px yellow;
+}
+
+.green {
+    background-color: green;
+}
+.green:hover {
+    background-color: green;
+    box-shadow: 0px 0px 30px green;
+}
+
