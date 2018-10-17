@@ -2,23 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flashy Light Box</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flashy Light Box</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="background">
+<body class="background">
+  <!-- PAGE WRAPPER SO YOU CAN MOVE THINGS INSIDE -->
+  <div class="page-wrapper">
 
-        <div class="post"></div>
-        <div class="stoplight">
-            <div class="red light"></div>
-            <div class="yellow light"></div>
-            <div class="green light"></div>
+    <!-- THE WHOLE STOPLIGHT BODY -->
+    <div class="stoplight">
+      <div class="light-neck"></div>
+      <div class="light-body">
+        <div class="light-container">
+          <div class="red-light"></div>
         </div>
+
+        <div class="light-container">
+          <div class="yellow-light"></div>
+        </div>
+
+        <div class="light-container">
+          <div class="green-light"></div>
+        </div>
+      </div>
     </div>
+  </div>
+
 </body>
 
 </html>
